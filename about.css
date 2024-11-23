@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ebb2f8; /* Soft pastel pink/purple background */
+    color: #f0ebeb; /* Light text color for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f5f0f1; 
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #f4f0f0; 
+}
+
+/* About and Personal Sections */
+.about-section, .personal-section {
+    max-width: 900px;
+    margin: 40px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: hsl(289, 32%, 58%); 
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.personal-section {
+    background-color: #f9f9f9;
+    border-left: 8px solid hsl(289, 32%, 58%); 
+    padding-left: 30px;
+}
+
+.personal-section p {
+    font-style: italic;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Quote Styling */
+.quote {
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(289, 32%, 58%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #de3df3; /* Purple left border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    max-width: 800px;
+    width: 100%;
+}
+
+.quote span {
+    display: block;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #7c7878;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f1f9;
+    width: 100%;
+}
+
+/* Button Styling */
+button {
+    background-color: #ebb2f8;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #de3df3;
+}
+
+/* Enhanced Nav Bar Styles - Matching Main Page */
+nav {
+    width: 100%;
+    background-color: #5a3d8f; /* A richer background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Enhanced Nav Bar Styles */
+nav {
+    width: 100%;
+    background-color: #5a3d8f; /* A richer background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Navigation Links */
+nav a {
+    text-decoration: none;
+    color: rgb(244, 240, 244);
+    font-size: 1.2rem;
+    margin: 0 20px; /* Adjusting spacing between links */
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover Effect on Navigation Links */
+nav a:hover {
+    background-color: #de3df3;
+    transform: translateY(-2px); /* Adds a subtle lift effect */
+}
+
+/* Active Link (if you're using JavaScript for page state) */
+nav a.active {
+    background-color: #ebb2f8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 1.1rem;
+    }
+}
+
+
+/* Responsive Design for Main Content */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-section, .personal-section {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+
+    .personal-section p {
+        font-size: 1rem;
+    }
+
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
