@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ebb2f8;
+    color: #f0ebeb;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f5f0f1;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #f4f0f0;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.wallpaper {
+    text-align: center;
+    
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wallpaper img {
+    width: 900px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.wallpaper button {
+    
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ebb2f8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.wallpaper button:hover {
+    background-color: #de3df3;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #7c7878;
+}
+nav a{
+    gap:30px;
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(244, 240, 244);
+    text-align: center;
+    font-size: large;
+    
+}
